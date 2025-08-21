@@ -58,7 +58,7 @@ export default function Home() {
     <div className="container">
       <div className="row" style={{justifyContent:'space-between'}}>
         <h1>AI Meeting Summarizer</h1>
-        <span className="badge">Username: <span className="code">Durgaprasad-Lumio</span></span>
+        <span className="badge">Username: <span className="code">Durgaprasad</span></span>
       </div>
       <p><small>Upload a text transcript, add a custom instruction, generate/edit a summary, then share via email.</small></p>
 
@@ -90,7 +90,7 @@ export default function Home() {
       {status && <p><small>{status}</small></p>}
 
       <hr />
-      <p className="footer">Built for Lumio – focus on functionality over design.</p>
+      <p className="footer">Built for AI Summarizer – focus on functionality over design.</p>
     </div>
   )
 }
